@@ -11,7 +11,7 @@ import main_bg from './assets/main_bg.png'; // Import your background image
 const App = () => {
   return (
     <BrowserRouter>
-      <div className="min-h-screen bg-cover bg-center bg-no-repeat" style={{ backgroundImage: `url(${main_bg})` }}>
+      <div className="min-h-screen bg-cover bg-center bg-no-repeat" >
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
