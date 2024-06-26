@@ -16,9 +16,16 @@ const Home = () => {
       <section className="h-full flex items-center justify-between text-white px-4 py-20">
         {/* Greeting Text */}
         <div className="max-w-4xl">
-          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-serif font-bold px-6 mb-4">
-            Hello, I'm Soumya Banerjee.
-          </h2>
+          <div className='flex space-0'>
+            <div>
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-serif font-bold px-6 mb-4">
+                Hello, I'm Soumya Banerjee.
+              </h2>
+            </div>
+            <div>
+              <img width={40} height={40} src="/Wave Hands.gif" alt="" />
+            </div>
+          </div>
           <p className="text-lg sm:text-xl lg:text-2xl leading-relaxed font-serif font-light px-6 py-3 mb-4">
            Aspiring Software Developer
           </p>
